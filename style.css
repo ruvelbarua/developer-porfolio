@@ -10,3 +10,17 @@ h1{
 section{
     display: flex;
 }
+.half-width{
+    width:50%;
+}
+.half-width img{
+    width: 62%;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(orange,red);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 800px;
+    border-radius: 5px;
+}
