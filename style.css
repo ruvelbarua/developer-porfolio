@@ -4,9 +4,13 @@ body{
 }
 h1{
     font-size: 50px;
+    padding-bottom: 2px;
+}
+h2{
+    font-size: 30px;
 }
 .orange-color{
-    color: orange;
+    color: rgb(4, 0, 255);
 }
 .flexible-container{
     display: flex;
@@ -37,4 +41,16 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.experiance-item{
+    width:60%;
+    margin: 5%;
+    margin: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 30px 20px 60px rgb(148, 156, 170);
+}
+.experiance-item{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 }
