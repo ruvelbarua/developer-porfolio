@@ -42,15 +42,33 @@ h2{
     background-position: right;
     
 }
-.experiance-item{
-    width:60%;
-    margin: 5%;
-    margin: 5%;
-    padding-left: 10px;
-    border-radius: 10px;
-    box-shadow: 30px 20px 60px rgb(148, 156, 170);
+
+}
+.experiance-part{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
 }
 .experiance-item{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow:10px 10px 40px rgb(148, 156, 170);
+    
+}
+#web-developer-experience{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image:linear-gradient(orange, white);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
